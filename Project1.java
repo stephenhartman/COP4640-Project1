@@ -6,6 +6,15 @@ import java.text.*;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * Project1 class has multiple Page replacement policy algorithms.  There is LRU, which is least recently used, FIFO, first in
+ * first out, and a Custom policy which replaces the the the middle recently used page.  This class contains the algorithms,
+ * counting mechanisms, output methods, and totaling methods to create a full report based on the number of iterations,
+ * number of page frames to use, the page range, and the number of pages to randomly generate.
+ * @author Group 3 - Windows 10
+ * @version 9/17/17
+ *
+ */
 public class Project1 {
 	
 	// Totals for the FIFO,LRU,CUSTOM failure & success rates
