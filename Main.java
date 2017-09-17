@@ -2,6 +2,12 @@ package project1;
 
 import java.io.IOException;
 
+/**
+ * The main class creates a project1 object and initializes all the methods to complete the task.
+ * @author Group 3 - Windows 10
+ * @version 9/17/17
+ *
+ */
 public class Main {
 
 	public static void main(String args[]) throws IOException {
